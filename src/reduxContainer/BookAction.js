@@ -1,8 +1,10 @@
-import { buyBook } from "./BookTypes";
+import { buy_book } from "./BookTypes";
 
 //Action creater
 const purchase_book = () => {
   return {
-    type: buyBook,
+    type: buy_book,
   };
 };
+
+export default purchase_book
